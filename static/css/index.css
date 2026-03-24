@@ -1,19 +1,44 @@
 * {
-    background-color: white;
 
-    justify-self: center;
 }
 
+/* header section */
 header{
     background-color: #2F5233;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    height: 85px;
 
 }
-nav{
-    color: #f73131 ;
+nav a{
+    color: white;
+    background-color:#2F5233;
+
+    text-decoration: none;
+    align-items: center;
+
+    margin: 1em;
+}
+nav a:hover{
+    color: gray;
+    font-size: 105%;
+}
+header img{
+    height: auto;
+    width: 150px;
+
+    position: absolute;
+    right: 0;
+
+    margin: 2em;
+    
 }
 
-/* nav:hover{ */
-/*     color: white; */
-/* } */
+/* Hero Section */
+
+
 
