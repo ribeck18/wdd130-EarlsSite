@@ -1,5 +1,19 @@
-*{
-    background-color: lightsalmon;
+* {
+    background-color: white;
 
     justify-self: center;
 }
+
+header{
+    background-color: #2F5233;
+
+
+}
+nav{
+    color: #f73131 ;
+}
+
+/* nav:hover{ */
+/*     color: white; */
+/* } */
+
