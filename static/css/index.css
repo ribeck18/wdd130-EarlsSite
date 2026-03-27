@@ -1,5 +1,54 @@
-* {
 
+/* Color Pallete: Green: #2F5233 Gray: #6B6E70 Red: #F73131 Light Blue: #4EA8DE */
+
+
+* {
+    margin: 0;
+    
+}
+
+/* Reusables */ 
+.section-divider{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 2em 0;
+}
+.section-divider::before,
+.section-divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid black;
+}
+.section-divider span{
+    margin: 0 16px;
+    font-weight: bold;
+}
+
+.section-divider.left::before{
+    flex: 0;
+    width: 0;
+}
+.section-divider.left::after{
+    flex: 1;
+}
+.section-divider.left span{
+    margin-left: 0;
+    margin: 0 16px;
+    font-weight: bold;
+}
+
+.section-divider.right::after{
+    flex: 0;
+    width: 0;
+}
+.section-divider.right::before{
+    flex: 1;
+}
+.section-divider.right span{
+    margin-right: 0;
+    margin: 0 16px;
+    font-weight: bold;
 }
 
 /* header section */
@@ -38,7 +87,80 @@ header img{
     
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+}
+
 /* Hero Section */
+#hero{
+    width: 80%;
+    align-self: center;
+    margin: 2em;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+}
+#hero img{
+    width: 80%;
+    height: auto;
+    align-self: center;
+
+    display: block;
+}
+#hero h1{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* color: #6B6E70; */
+}
+#hero h3{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+#hero button{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* About Rock Climbing Section */
+#about-climbing{
+    display: flex;
+    justify-content: space-around;
+} 
+#what-is{
+    margin: 0 3em;
+    padding: 1em;
+    width: 100%;
+    height: auto;
+
+    border: 2px solid black;
+}
+#what-is h3{
+    margin: 5px;
+}
+
+#wht-enjoy{
+    margin: 0 3em;
+    padding: 1em;
+    width: 100%;
+    height: auto;
+
+    border: 2px solid black;
+}
+#wht-enjoy{
+    margin: 5px;
+}
+
 
 
 
