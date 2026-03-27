@@ -51,6 +51,19 @@
     font-weight: bold;
 }
 
+.learn-more-button{
+    transition: transform 0.2s ease;
+}
+.learn-more-button:hover{
+    transform: scale(1.1);
+}
+.learn-more-button a{
+    color: black;
+    text-decoration: none;
+} 
+
+
+
 /* header section */
 header{
     background-color: #2F5233;
@@ -72,6 +85,7 @@ nav a{
 
     margin: 1em;
 }
+/* I need to make this transform like the buttons do so it doesn't make everything in the flex box move */
 nav a:hover{
     color: gray;
     font-size: 105%;
@@ -131,6 +145,9 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+#hero button:hover{
+    transform: translate(-50%, -50%) scale(1.3);
+}
 
 /* About Rock Climbing Section */
 #about-climbing{
@@ -157,10 +174,144 @@ main{
 
     border: 2px solid black;
 }
-#wht-enjoy{
+#wht-enjoy h3{
     margin: 5px;
 }
 
 
 
+/*What you will find on this site section*/ 
+#about-site{
+    display: flex;
+    justify-content: space-around;
+}
+#begin-guide{
+    margin: 0 3em;
+    padding: 1em;
+    width: 100%;
+    height: auto;
 
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+#begin-guide button{
+    align-self: center;
+}
+#begin-guide h3{
+    align-self: center;
+}
+#begin-guide hr{
+    margin: .5em;
+}
+#gear{
+    margin: 0 3em;
+    padding: 1em;
+    width: 100%;
+    height: auto;
+
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+#gear button{
+    align-self: center;
+}
+#gear h3{
+    align-self: center;
+}
+#gear hr{
+    margin: .5em;
+}
+#about-benefits{
+    margin: 0 3em;
+    padding: 1em;
+    width: 100%;
+    height: auto;
+
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+#about-benefits button{
+    align-self: center;
+}
+#about-benefits h3{
+    align-self: center;
+}
+#about-benefits hr{
+    margin: .5em;
+}
+
+
+/* benefits section */
+#benefits{
+    display: flex;
+    justify-content: space-around;
+}
+#build-strength{
+    margin: 0 3em;
+    padding: 1em;
+    width: 100%;
+    height: auto;
+
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+#build-strength h3{
+    align-self: center;
+}
+#build-strength hr{
+    margin: .5em;
+}
+#improve-balance{
+    margin: 0 3em;
+    padding: 1em;
+    width: 100%;
+    height: auto;
+
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+#improve-balance h3{
+    align-self: center;
+}
+#improve-balance hr{
+    margin: .5em;
+}
+#fun{
+    margin: 0 3em;
+    padding: 1em;
+    width: 100%;
+    height: auto;
+
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+#fun h3{
+    align-self: center;
+}
+#fun hr{
+    margin: .5em;
+}
+
+
+/* Footer Section */
+footer{
+    margin-top: 1em;
+    height: 85px;
+
+    background-color:  #2F5233;
+    
+    display: flex;
+    justify-content: space-around;
+}
