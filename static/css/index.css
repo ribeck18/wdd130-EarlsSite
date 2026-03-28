@@ -127,17 +127,19 @@ main{
 }
 #hero h1{
     position: absolute;
-    top: 65%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    /* color: #6B6E70; */
+    color: white;
 }
 #hero h3{
     position: absolute;
-    top: 70%;
+    top: 67%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    color: white;
 } 
 #hero button{
     position: absolute;
@@ -161,6 +163,9 @@ main{
     height: auto;
 
     border: 2px solid black;
+
+    background-color: rgb(107, 110, 112, .5);
+    box-shadow: 5px 5px 10px gray;
 }
 #what-is h3{
     margin: 5px;
@@ -173,6 +178,9 @@ main{
     height: auto;
 
     border: 2px solid black;
+
+    background-color: rgb(107, 110, 112, .5);
+    box-shadow: 5px 5px 10px gray;
 }
 #wht-enjoy h3{
     margin: 5px;
@@ -195,6 +203,9 @@ main{
 
     display: flex;
     flex-direction: column;
+    
+    background-color: rgb(107, 110, 112, .5);
+    box-shadow: 5px 5px 10px gray;
 }
 #begin-guide button{
     align-self: center;
@@ -215,6 +226,11 @@ main{
 
     display: flex;
     flex-direction: column;
+
+
+    background-color: rgb(107, 110, 112, .5);
+    box-shadow: 5px 5px 10px gray;
+
 }
 #gear button{
     align-self: center;
@@ -235,6 +251,9 @@ main{
 
     display: flex;
     flex-direction: column;
+
+    background-color: rgb(107, 110, 112, .5);
+    box-shadow: 5px 5px 10px gray;
 }
 #about-benefits button{
     align-self: center;
@@ -262,6 +281,9 @@ main{
 
     display: flex;
     flex-direction: column;
+
+    background-color: rgb(107, 110, 112, .5);
+    box-shadow: 5px 5px 10px gray;
 }
 #build-strength h3{
     align-self: center;
@@ -279,6 +301,9 @@ main{
 
     display: flex;
     flex-direction: column;
+
+    background-color: rgb(107, 110, 112, .5);
+    box-shadow: 5px 5px 10px gray;
 }
 #improve-balance h3{
     align-self: center;
@@ -296,6 +321,9 @@ main{
 
     display: flex;
     flex-direction: column;
+
+    background-color: rgb(107, 110, 112, .5);
+    box-shadow: 5px 5px 10px gray;
 }
 #fun h3{
     align-self: center;
