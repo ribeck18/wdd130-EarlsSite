@@ -242,7 +242,7 @@ main{
 }
 .abt-box button{
     align-self: center;
-    width: 40%;
+    width: 25%;
 }
 .abt-box h3{
     align-self: center;
