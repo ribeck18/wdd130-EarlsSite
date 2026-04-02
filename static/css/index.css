@@ -156,6 +156,7 @@ main{
 
     color: white;
     font-size: 2em;
+    text-align: center;
 } 
 #hero button{
     position: absolute;
@@ -192,6 +193,10 @@ main{
 #what-is h3{
     margin: 5px;
 }
+#what-is p{
+    margin: 1em;
+    text-align: center;
+}
 
 #wht-enjoy{
     margin: 0 3em;
@@ -212,6 +217,12 @@ main{
 }
 #wht-enjoy h3{
     margin: 5px;
+}
+#wht-enjoy hr{
+    margin: 1em;
+}
+#wht-enjoy ul{
+    margin 1em;
 }
 
 
@@ -251,6 +262,10 @@ main{
 .abt-box hr{
     margin: .5em;
 }
+.abt-box p{
+    margin-bottom: 1em;
+    text-align: center;
+}
 
 
 /* benefits section */
@@ -282,6 +297,10 @@ main{
 .benefit-box button{
     align-self: center;
     width: 25%;
+}
+.benefit-box p{
+    margin: 1em;
+    text-align: center;
 }
 .abt-guide h3{
     align-self: center;
